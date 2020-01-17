@@ -6,7 +6,6 @@
       "autoFix": true
     }
   ],
-  // "eslint.validate.language": ["vue"],
   // For TSLint
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true,
@@ -29,7 +28,4 @@
   //   "singleQuote": true
   // },
   // "minapp-vscode.wxmlFormatter": "prettier",
-
-  // For Stylelint
-  // "stylelint.autoFixOnSave": true
 }
