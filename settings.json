@@ -1,54 +1,46 @@
 {
+  "editor.minimap.enabled": true,
+  "window.zoomLevel": 1,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "git.confirmSync": false,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "explorer.confirmDelete": false,
+  // 保存自动化
   "editor.formatOnSave": true,
+  // 保存时自动fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "eslint.autoFixOnSave": true,
+  // 添加 vue 支持
   "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    // {
+    //   "language": "typescript",
+    //   "autoFix": true
+    // },
+    // {
+    //   "language": "html",
+    //   "autoFix": true
+    // },
     {
       "language": "vue",
       "autoFix": true
     }
   ],
-  // For TSLint
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true,
-    "source.fixAll.eslint": true
-  },
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  // 屏蔽vetur的js格式化
-  "vetur.format.defaultFormatter.js": "none",
   // 使用插件格式化 html
   "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "git.enableSmartCommit": true,
-  "editor.tabSize": 2
-  // 分割线
-  // "editor.formatOnSave": true,
-  // "eslint.validate": [
-  //   {
-  //     "language": "vue",
-  //     "autoFix": true
-  //   }
-  // ],
-  // // For TSLint
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.tslint": true,
-  //   "source.fixAll.eslint": true
-  // },
-  // "prettier.singleQuote": true,
-  // // 屏蔽vetur的js格式化
-  // "vetur.format.defaultFormatter.js": "none",
-  // // 使用插件格式化 html
-  // "vetur.format.defaultFormatter.html": "js-beautify-html",
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "vscode.typescript-language-features"
-  // },
-  // "git.enableSmartCommit": true,
-  // "minapp-vscode.prettier": {
-  //   "useTabs": false,
-  //   "tabWidth": 2,
-  //   "printWidth": 100,
-  //   "singleQuote": true
-  // },
-  // "minapp-vscode.wxmlFormatter": "prettier",
+  // 屏蔽vetur的js格式化
+  "vetur.format.defaultFormatter.js": "none",
 }
